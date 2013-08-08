@@ -6,7 +6,7 @@ import java.util.Arrays;
  * This is a class which encapsulates an array of bytes that is the hash of the
  * contents of a chunk
  * 
- * @author zahari
+ * @author Zahari Dichev <zaharidichev@gmail.com>
  * 
  */
 public class Sha1Hash {

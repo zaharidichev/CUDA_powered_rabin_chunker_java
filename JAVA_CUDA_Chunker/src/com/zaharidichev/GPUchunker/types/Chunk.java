@@ -7,7 +7,7 @@ package com.zaharidichev.GPUchunker.types;
  * and is associated with a {@link Sha1Hash} which is the hash of the data that
  * is within the boundaries of the chunks
  * 
- * @author zahari
+ * @author Zahari Dichev <zaharidichev@gmail.com>
  * 
  */
 

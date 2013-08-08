@@ -5,7 +5,7 @@ package com.zaharidichev.GPUchunker.utils;
  * throwing exceptions that are associated with problems when reading a
  * particular file from disk
  * 
- * @author zahari
+ * @author Zahari Dichev <zaharidichev@gmail.com>
  * 
  */
 public class FileException extends Exception {

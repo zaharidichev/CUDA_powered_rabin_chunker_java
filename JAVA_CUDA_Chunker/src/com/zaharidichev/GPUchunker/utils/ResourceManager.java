@@ -7,7 +7,7 @@ import com.zaharidichev.GPUchunker.types.Chunk;
  * determine key values in the chunking systems. Examples are the length of the
  * hash array, the length of the breakpoints array and so on.
  * 
- * @author zahari
+ * @author Zahari Dichev <zaharidichev@gmail.com>
  * 
  */
 

@@ -13,7 +13,7 @@ import com.zaharidichev.GPUchunker.utils.ResourceManager;
  * The class is a singleton and upon its construction dynamically loads a .so
  * file which contains the CUDA routines.
  * 
- * @author zahari
+ * @author Zahari Dichev <zaharidichev@gmail.com>
  * 
  */
 public class CudaLink {
@@ -63,7 +63,7 @@ public class CudaLink {
 	 */
 	private native int getSizeOfGPUBuffer();
 
-	private static CudaLink instance = null; // refernece to self.. needed for
+	private static CudaLink instance = null; // Reference to self.. needed for
 												// singleton
 
 	/**
@@ -102,7 +102,7 @@ public class CudaLink {
 	}
 
 	/**
-	 * A publicly exposes method which communicates directly with the private
+	 * A publicly exposed method which communicates directly with the private
 	 * native method in order to chunk an array of bytes and hash the results
 	 * 
 	 * @param data

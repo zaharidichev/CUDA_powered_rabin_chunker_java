@@ -10,7 +10,7 @@ import com.zaharidichev.GPUchunker.utils.FileException;
 /**
  * Just testing how the system works with a 700Mb file...
  * 
- * @author zahari
+ * @author Zahari Dichev <zaharidichev@gmail.com>
  * 
  */
 public class starter {
@@ -18,7 +18,7 @@ public class starter {
 	public static void main(String[] args) throws NoSuchAlgorithmException,
 			FileException {
 
-		File f = new File("/home/zahari/Desktop/2.6_kernels_merged.dat");
+		File f = new File("/home/zahari/Desktop/2.6_kernels_merged.dat"); // you can put any file in here...
 
 		RabinChunker chunker = new RabinChunker(32768, 131072, 512, 256);
 

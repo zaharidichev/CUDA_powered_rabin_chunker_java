@@ -16,7 +16,7 @@ import com.zaharidichev.GPUchunker.utils.ResourceManager;
  * minimum and maximum thresholds. All the chunking and hashing is performed on
  * the GPU, if a CUDA - enabled device is available.
  * 
- * @author zahari
+ * @author Zahari Dichev <zaharidichev@gmail.com>
  * 
  */
 public class RabinChunker {
@@ -36,9 +36,9 @@ public class RabinChunker {
 	 * @param maxSize
 	 *            the maximum size of a chunk
 	 * @param primDivisor
-	 *            the primary rabin divisor
+	 *            the primary Rabin divisor
 	 * @param secondaryDivisor
-	 *            . the secondary rabin divisor
+	 *            . the secondary Rabin divisor
 	 */
 	public RabinChunker(int minSize, int maxSize, int primDivisor,
 			int secondaryDivisor) {
@@ -57,7 +57,7 @@ public class RabinChunker {
 	/**
 	 * This is the public method which takes care of chunking a file by
 	 * determining the number of batches that need to be dispatched based on the
-	 * size of the gpu buffer available and the size of the data.
+	 * size of the GPU buffer available and the size of the data.
 	 * 
 	 * @param file
 	 *            a {@link File} object
